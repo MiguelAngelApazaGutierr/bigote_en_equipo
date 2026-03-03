@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4c2c2;
+}
+
+.ojos {
+    display: flex;
+    gap: 60px;
+}
+
+.ojo {
+    width: 130px;
+    height: 130px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.iris {
+    width: 80px;
+    height: 80px;
+    background: radial-gradient(circle, #00c6ff, #0072ff);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pupila {
+    width: 40px;
+    height: 40px;
+    background: black;
+    border-radius: 50%;
+}
