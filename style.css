@@ -7,6 +7,120 @@ body {
     background: #f4c2c2;
 }
 
+.mustache{
+  color: #000;
+  position: absolute;
+  left: 100px;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  box-shadow: 150px 300px 0 0 currentColor,
+              300px 300px 0 0 currentColor;
+}
+
+.mustache::before {
+  content: '';
+  position: absolute;
+  left: 30px;
+  top: 180px;
+  width: 210px;
+  height: 120px;
+  border-radius: 0 0 0 100%;
+  border: 0 solid transparent;
+  border-bottom: 180px solid currentColor;
+  -webkit-transform-origin: right 210px;
+          transform-origin: right 210px;
+  -webkit-transform: rotate(-40deg);
+          transform: rotate(-40deg);
+}
+
+.mustache::after {
+  content: '';
+  position: absolute;
+  width: 210px;
+  height: 120px;
+  left: 390px;
+  top: 180px;
+  border-radius: 0 0 100% 0;
+  border: 0 solid transparent;
+  border-bottom: 180px solid currentColor;
+  -webkit-transform-origin: left 210px;
+          transform-origin: left 210px;
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+}
+
+
+
+
+
+
+
+
+.sombrero{
+    color: #494949;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    width: 450px;
+    height: 30px;
+    border-radius: 100% 100% 50% 50%;
+    box-shadow: 85px 35px 0 0 currentColor;
+}
+
+.sombrero_sombra{
+    color: rgb(59, 59, 59);
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    width: 250px;
+    height: 20px;
+    border-radius: 100% 100% 50% 50%;
+    box-shadow: 185px 40px 0 0 currentColor;
+}
+
+.sombrero_top1{
+    color: #494949;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 260px;
+    height: 100px;
+    border-radius: 10% 10% 75px 75px;
+    box-shadow: 285px 30px 0 0 currentColor;
+}
+.sombrero_top2{
+    color: #494949;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 260px;
+    height: 90px;
+    border-radius: 75px 75px 0 0;
+    box-shadow: 285px 49px 0 0 currentColor;
+}
+.sombrero_cinta1{
+    color: black;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 250px;
+    height: 12px;
+    border-radius: 10% 10% 75px 75px;
+    box-shadow: 290px 80px 0 0 currentColor;
+}
+.sombrero_cinta2{
+    color: black;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    /* -50 */
+    width: 250px; 
+    height: 12px;
+    border-radius: 75px 75px 0 0;
+    box-shadow: 290px 85px 0 0 currentColor;
+}
+
 .ojos {
     display: flex;
     gap: 60px;
