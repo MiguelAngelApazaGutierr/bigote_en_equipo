@@ -7,7 +7,19 @@ body {
     background: #f4c2c2; /* Fondo rosa */
     overflow: hidden;
 }
+.contenedor-bigote {
+    width: 380px; /* Un poco más ancho que los ojos */
+    margin-top: -30px; /* Para que suba y se pegue a los ojos */
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+}
 
+.bigote-svg {
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(0 5px 10px rgba(0,0,0,0.3)); /* Le da profundidad */
+}
 /* El contenedor que agrupa todo */
 .personaje {
     display: flex;
