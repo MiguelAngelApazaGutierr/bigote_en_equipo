@@ -85,3 +85,29 @@ body {
     background: black;
     border-radius: 50%;
 }
+
+.lentes {
+    position: absolute;
+    top: 330px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    z-index: 5;
+}
+
+.lente {
+    width: 140px;
+    height: 140px;
+    border: 9px solid black;
+    border-radius: 50%;
+    background: transparent;
+}
+
+.puente {
+    position: absolute;
+    width: 30px;
+    height: 8px;
+    background: black;
+    left: 50%;
+    transform: translateX(-50%);
+}
